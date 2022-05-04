@@ -1,0 +1,23 @@
+{
+    "name": "highpoint/group",
+    "description": "Junior Developer Test Task",
+    "type": "php",
+    "autoload": {
+        "files": [
+            "src/Helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Highpoint\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hossein.alikhani",
+            "email": "hossein.alikhani1374@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jenssegers/blade": "dev-master"
+    }
+}

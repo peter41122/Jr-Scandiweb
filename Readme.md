@@ -1,0 +1,4 @@
+- install composer & npm i
+- serve php as public/index.php
+- serve npx webpack --watch
+- execute highpoint.sql file to mysql db and update .env information
